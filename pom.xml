@@ -83,7 +83,7 @@
     <tag>HEAD</tag>
   </scm>
 
-  <modules>
+  <!--modules>
     <module>xchange-bankera</module>
     <module>xchange-bibox</module>
     <module>xchange-binance</module>
@@ -209,6 +209,35 @@
     <module>xchange-stream-service-core</module>
     <module>xchange-stream-service-netty</module>
     <module>xchange-stream-service-pubnub</module>
+  </modules-->
+  
+  <modules>
+    <module>xchange-bibox</module>
+    <module>xchange-bitfinex</module>
+    <module>xchange-bittrex</module>
+    <module>xchange-bitstamp</module>
+    <module>xchange-cexio</module>
+    <module>xchange-coinbasepro</module>
+    <module>xchange-core</module>
+    <module>xchange-deribit</module>
+    <module>xchange-ftx</module>
+    <module>xchange-hitbtc</module>
+    <module>xchange-huobi</module>
+    <module>xchange-kraken</module>
+    <module>xchange-latoken</module>
+    <module>xchange-livecoin</module>
+    <module>xchange-okcoin</module>
+    <module>xchange-poloniex</module>
+    
+    <module>xchange-stream-binance</module>
+    <module>xchange-stream-bitfinex</module>
+    <module>xchange-stream-bitstamp</module>
+    <module>xchange-stream-coinbasepro</module>
+    <module>xchange-stream-core</module>
+    <module>xchange-stream-ftx</module>
+    <module>xchange-stream-poloniex2</module>
+    <module>xchange-stream-service-netty</module>
+    <module>xchange-stream-service-core</module>
   </modules>
 
   <ciManagement>
