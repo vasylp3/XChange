@@ -213,6 +213,7 @@
   
   <modules>
     <module>xchange-bibox</module>
+    <module>xchange-binance</module>
     <module>xchange-bitfinex</module>
     <module>xchange-bittrex</module>
     <module>xchange-bitstamp</module>
@@ -457,7 +458,7 @@
           </plugin>
 
           <!-- Generates a source code JAR during package -->
-          <plugin>
+          <!--plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-source-plugin</artifactId>
             <version>3.2.1</version>
@@ -469,9 +470,9 @@
                 </goals>
               </execution>
             </executions>
-          </plugin>
+          </plugin-->
           <!-- Generates JavaDocs during package -->
-          <plugin>
+          <!--plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-javadoc-plugin</artifactId>
             <version>3.3.1</version>
@@ -486,7 +487,7 @@
                 </configuration>
               </execution>
             </executions>
-          </plugin>
+          </plugin-->
 
         </plugins>
       </build>
@@ -518,7 +519,7 @@
         </configuration>
       </plugin>
 
-      <plugin>
+      <!--plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-source-plugin</artifactId>
         <version>3.2.1</version>
@@ -530,8 +531,8 @@
             </goals>
           </execution>
         </executions>
-      </plugin>
-      <plugin>
+      </plugin-->
+      <!--plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-javadoc-plugin</artifactId>
         <version>3.3.1</version>
@@ -548,7 +549,7 @@
           <doclint>none</doclint>
           <source>${version.java}</source>
         </configuration>
-      </plugin>
+      </plugi-->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-surefire-plugin</artifactId>
