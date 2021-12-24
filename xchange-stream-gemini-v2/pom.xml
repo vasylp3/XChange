@@ -8,18 +8,18 @@
 
     <parent>
         <artifactId>xchange-parent</artifactId>
-        <groupId>org.knowm.xchange</groupId>
-        <version>5.0.13-SNAPSHOT</version>
+        <groupId>nostro.xchange</groupId>
+        <version>1.0-SNAPSHOT</version>
     </parent>
 
     <dependencies>
         <dependency>
-            <groupId>org.knowm.xchange</groupId>
+            <groupId>nostro.xchange</groupId>
             <artifactId>xchange-stream-core</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.knowm.xchange</groupId>
+            <groupId>nostro.xchange</groupId>
             <artifactId>xchange-gemini</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
