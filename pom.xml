@@ -212,33 +212,33 @@
   </modules-->
   
   <modules>
-    <module>xchange-bibox</module>
-    <module>xchange-binance</module>
-    <module>xchange-bitfinex</module>
-    <module>xchange-bittrex</module>
-    <module>xchange-bitstamp</module>
-    <module>xchange-cexio</module>
-    <module>xchange-coinbasepro</module>
+    <!--<module>xchange-bibox</module>-->
+    <!--<module>xchange-binance</module>-->
+    <!--<module>xchange-bitfinex</module>-->
+    <!--<module>xchange-bittrex</module>-->
+    <!--<module>xchange-bitstamp</module>-->
+    <!--<module>xchange-cexio</module>-->
+    <!--<module>xchange-coinbasepro</module>-->
     <module>xchange-core</module>
-    <module>xchange-deribit</module>
-    <module>xchange-ftx</module>
-    <module>xchange-hitbtc</module>
-    <module>xchange-huobi</module>
-    <module>xchange-kraken</module>
-    <module>xchange-latoken</module>
-    <module>xchange-livecoin</module>
-    <module>xchange-okcoin</module>
-    <module>xchange-poloniex</module>
-    
-    <module>xchange-stream-binance</module>
-    <module>xchange-stream-bitfinex</module>
-    <module>xchange-stream-bitstamp</module>
-    <module>xchange-stream-coinbasepro</module>
-    <module>xchange-stream-core</module>
-    <module>xchange-stream-ftx</module>
-    <module>xchange-stream-poloniex2</module>
-    <module>xchange-stream-service-netty</module>
-    <module>xchange-stream-service-core</module>
+    <!--<module>xchange-deribit</module>-->
+    <!--<module>xchange-ftx</module>-->
+    <!--<module>xchange-hitbtc</module>-->
+    <!--<module>xchange-huobi</module>-->
+    <!--<module>xchange-kraken</module>-->
+    <!--<module>xchange-latoken</module>-->
+    <!--<module>xchange-livecoin</module>-->
+    <!--<module>xchange-okcoin</module>-->
+    <!--<module>xchange-poloniex</module>-->
+    <!---->
+    <!--<module>xchange-stream-binance</module>-->
+    <!--<module>xchange-stream-bitfinex</module>-->
+    <!--<module>xchange-stream-bitstamp</module>-->
+    <!--<module>xchange-stream-coinbasepro</module>-->
+    <!--<module>xchange-stream-core</module>-->
+    <!--<module>xchange-stream-ftx</module>-->
+    <!--<module>xchange-stream-poloniex2</module>-->
+    <!--<module>xchange-stream-service-netty</module>-->
+    <!--<module>xchange-stream-service-core</module>-->
   </modules>
 
   <ciManagement>
@@ -458,7 +458,7 @@
           </plugin>
 
           <!-- Generates a source code JAR during package -->
-          <!--plugin>
+          <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-source-plugin</artifactId>
             <version>3.2.1</version>
@@ -470,9 +470,9 @@
                 </goals>
               </execution>
             </executions>
-          </plugin-->
+          </plugin>
           <!-- Generates JavaDocs during package -->
-          <!--plugin>
+          <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-javadoc-plugin</artifactId>
             <version>3.3.1</version>
@@ -487,7 +487,7 @@
                 </configuration>
               </execution>
             </executions>
-          </plugin-->
+          </plugin>
 
         </plugins>
       </build>
@@ -519,7 +519,7 @@
         </configuration>
       </plugin>
 
-      <!--plugin>
+      <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-source-plugin</artifactId>
         <version>3.2.1</version>
@@ -531,8 +531,8 @@
             </goals>
           </execution>
         </executions>
-      </plugin-->
-      <!--plugin>
+      </plugin>
+      <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-javadoc-plugin</artifactId>
         <version>3.3.1</version>
@@ -549,7 +549,7 @@
           <doclint>none</doclint>
           <source>${version.java}</source>
         </configuration>
-      </plugi-->
+      </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-surefire-plugin</artifactId>
